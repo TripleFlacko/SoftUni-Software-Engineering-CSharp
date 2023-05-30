@@ -1,22 +1,62 @@
 ﻿using System;
 
-internal class Program
+namespace Odd___Even_Position
 {
-    static void Main(string[] args)
+    internal class Program
     {
-
-        int hour = 0;
-        int minute = 0;
-
-        for (int i = 0; i < 24; i++)
+        static void Main(string[] args)
         {
-            for (int a = 0; a <= 59; a++)
+            double n = double.Parse(Console.ReadLine());
+
+            double evenMin = double.MaxValue;
+            double evenMax = double.MinValue;
+            double oddMin = double.MaxValue;
+            double oddMax = double.MinValue;
+            double oddSum = 0;
+            double evenSum = 0;
+
+
+
+            for (double i = 1; i <= n; i++)
             {
-                Console.WriteLine($"{hour} : {minute}");
-                minute++;
+                double number = double.Parse(Console.ReadLine());
+
+                if (number % 2 != 0)
+                {
+
+                    oddSum += number;           // нечетно
+
+                    if (number > oddMax)
+                    {
+                        oddMax = number;
+                    }
+                    if (number < oddMin)
+                    {
+                        oddMin = number;
+                    }
+
+                }
+                else
+                {
+                    evenSum += number;         //четно
+
+                    if (number < evenMin)
+                    {
+                        evenMin = number;
+                    }
+                    if (number > evenMax)
+                    {
+                        evenMax = number;
+                    }
+
+                }
             }
-            hour++;
-            minute -= 60;
+            Console.WriteLine($"OddSum={oddSum:f2},");
+            Console.WriteLine($"OddMin={oddMin:f2},");
+            Console.WriteLine($"OddMax={oddMax:f2},");
+            Console.WriteLine($"EvenSum={evenSum:f2},");
+            Console.WriteLine($"EvenMin={evenMin:f2},");
+            Console.WriteLine($"EvenMax={evenMax:f2},");
         }
     }
 }
