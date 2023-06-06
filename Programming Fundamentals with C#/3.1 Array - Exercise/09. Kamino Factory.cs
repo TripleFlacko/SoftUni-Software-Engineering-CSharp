@@ -38,10 +38,8 @@ class Program
                 {
                     sequenceLength++;
 
-                    if (sequenceStartIndex == -1)
-                    {
-                        sequenceStartIndex = i - 1;
-                    }
+                    if (sequenceStartIndex == -1) sequenceStartIndex = i - 1;
+
                     if ((sequenceLength >= bestLength && sequenceStartIndex < bestIndex) || (sequenceStartIndex <= bestIndex && sumOfInput > bestSum))
                     {
                         bestLength = sequenceLength;
