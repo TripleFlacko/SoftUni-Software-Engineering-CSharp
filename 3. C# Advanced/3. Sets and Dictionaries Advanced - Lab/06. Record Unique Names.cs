@@ -5,25 +5,12 @@ class Program
 {
     static void Main()
     {
-        var parking = new HashSet<string>();
+        var lines = int.Parse(Console.ReadLine());
+        var set = new HashSet<string>();
 
-        string input;
-        while ((input = Console.ReadLine()) != "END")
-        {
-            var data = input.Split(", ");
-            var direction = data[0];
-            var licensePlate = data[1];
-
-            switch (direction)
-            {
-                case "IN":
-                    parking.Add(licensePlate);
-                    break;
-                case "OUT":
-                    parking.Remove(licensePlate);
-                    break;
-            }
-        }
-        Console.WriteLine(parking.Count > 0 ? string.Join("\n", parking) : "Parking Lot is Empty");
+        for (int i = 0; i < lines; i++)
+            set.Add(Console.ReadLine());
+        foreach (var name in set)
+            Console.WriteLine(name);
     }
 }
