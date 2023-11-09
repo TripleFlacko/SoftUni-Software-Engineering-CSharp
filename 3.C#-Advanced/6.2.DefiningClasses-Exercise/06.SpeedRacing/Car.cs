@@ -8,12 +8,17 @@ namespace _06.SpeedRacing
 {
     public class Car
     {
-		private string model;
 		private double fuelAmount;
 		private double fuelConsumptionPerKilometer;
 		private double travelledDistance;
 
-		public double TravelledDistance
+        public Car(double fuelAmount, double fuelConsumptionPerKilometer)
+        {
+			FuelAmount = fuelAmount;
+			FuelConsumptionPerKilometer = fuelConsumptionPerKilometer;
+			TravelledDistance = 0;
+        }
+        public double TravelledDistance
 		{
 			get { return travelledDistance; }
 			set { travelledDistance = value; }
@@ -33,12 +38,17 @@ namespace _06.SpeedRacing
 			set { fuelAmount = value; }
 		}
 
-
-		public string Model
+		public void Drive(double amountOfKM)
 		{
-			get { return model; }
-			set { model = value; }
+			if (FuelAmount - fuelConsumptionPerKilometer * amountOfKM >= 0)
+			{
+				FuelAmount -= fuelConsumptionPerKilometer * amountOfKM;
+				TravelledDistance += amountOfKM;
+            }
+			else
+			{
+                Console.WriteLine("Insufficient fuel for the drive");
+            }
 		}
-
 	}
 }
