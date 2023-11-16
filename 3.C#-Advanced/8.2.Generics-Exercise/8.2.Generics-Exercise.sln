@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.GenericBoxOfString", "01.GenericBoxOfString\01.GenericBoxOfString.csproj", "{BDBD1081-8D3D-4282-857E-C1CB6D7D9ACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GenericBoxOfInteger", "02.GenericBoxOfInteger\02.GenericBoxOfInteger.csproj", "{C0050365-73FC-4578-B1D5-EFBC8DD972CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BDBD1081-8D3D-4282-857E-C1CB6D7D9ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDBD1081-8D3D-4282-857E-C1CB6D7D9ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDBD1081-8D3D-4282-857E-C1CB6D7D9ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0050365-73FC-4578-B1D5-EFBC8DD972CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0050365-73FC-4578-B1D5-EFBC8DD972CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0050365-73FC-4578-B1D5-EFBC8DD972CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0050365-73FC-4578-B1D5-EFBC8DD972CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
