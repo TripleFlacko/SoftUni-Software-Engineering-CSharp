@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Library", "01.Library\01.Library.csproj", "{125CA9F7-7B9B-4F1F-AA92-E797D2FDD37A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Library", "01.Library\01.Library.csproj", "{125CA9F7-7B9B-4F1F-AA92-E797D2FDD37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LibraryIterator", "02.LibraryIterator\02.LibraryIterator.csproj", "{76ADC43A-2B24-4377-8270-039BBA03F20B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LibraryIterator", "02.LibraryIterator\02.LibraryIterator.csproj", "{76ADC43A-2B24-4377-8270-039BBA03F20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ComparableBook", "03.ComparableBook\03.ComparableBook.csproj", "{8F88B950-94A3-4B25-8C28-46176A71BB42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{76ADC43A-2B24-4377-8270-039BBA03F20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76ADC43A-2B24-4377-8270-039BBA03F20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76ADC43A-2B24-4377-8270-039BBA03F20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F88B950-94A3-4B25-8C28-46176A71BB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F88B950-94A3-4B25-8C28-46176A71BB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F88B950-94A3-4B25-8C28-46176A71BB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F88B950-94A3-4B25-8C28-46176A71BB42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
