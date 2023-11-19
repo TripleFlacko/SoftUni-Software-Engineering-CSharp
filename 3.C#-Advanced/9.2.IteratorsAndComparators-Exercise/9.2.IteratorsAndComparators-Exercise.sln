@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ListyIterator", "01.List
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Collection", "02.Collection\02.Collection.csproj", "{EAF2908A-C575-4FB1-BB34-37C0EAF9C4FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Stack", "03.Stack\03.Stack.csproj", "{18628C90-7D3F-4439-9898-C349C7AAD50A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EAF2908A-C575-4FB1-BB34-37C0EAF9C4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAF2908A-C575-4FB1-BB34-37C0EAF9C4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF2908A-C575-4FB1-BB34-37C0EAF9C4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18628C90-7D3F-4439-9898-C349C7AAD50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18628C90-7D3F-4439-9898-C349C7AAD50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18628C90-7D3F-4439-9898-C349C7AAD50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18628C90-7D3F-4439-9898-C349C7AAD50A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

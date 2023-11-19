@@ -13,12 +13,14 @@ namespace _02.ImplementingStack
         private int[] items;
         private const int capacity = 4;
         private int count;
+
+        public int Count => count;
+
         public CustomStack()
         {
             items = new int[capacity];
         }
 
-        public int Count => count;
 
         public void Push(int item)
         {
@@ -35,13 +37,16 @@ namespace _02.ImplementingStack
             {
                 throw new InvalidOperationException("Stack is empty");
             }
+
             var poppedItem = items[count - 1];
             items[count - 1] = default(int);
             count--;
+
             if (Count <= items.Length / 4)
             {
                 Shrink();
             }
+
             return poppedItem;
         }
 
@@ -51,13 +56,13 @@ namespace _02.ImplementingStack
             {
                 throw new InvalidOperationException("Stack is empty");
             }
-            var peekedItem = items[count - 1];
-            return peekedItem;
+
+            return items[count - 1];
         }
 
         public void ForEach(Action<int> action)
         {
-            for (int i = 0; i < count; i++)
+            for (int i = count - 1; i >= 0; i--)
             {
                 action(items[i]);
             }
