@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultipleInheritance", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.HierarchicalInheritance", "03.HierarchicalInheritance\03.HierarchicalInheritance.csproj", "{236019CA-D9F4-4019-A953-D827348E4EEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RandomList", "04.RandomList\04.RandomList.csproj", "{8C4D419D-2711-44BB-931C-5CE1908627E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StackOfStrings", "05.StackOfStrings\05.StackOfStrings.csproj", "{B2665798-8355-4B45-B38F-D2F8098ED5E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{236019CA-D9F4-4019-A953-D827348E4EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236019CA-D9F4-4019-A953-D827348E4EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236019CA-D9F4-4019-A953-D827348E4EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4D419D-2711-44BB-931C-5CE1908627E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4D419D-2711-44BB-931C-5CE1908627E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4D419D-2711-44BB-931C-5CE1908627E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4D419D-2711-44BB-931C-5CE1908627E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2665798-8355-4B45-B38F-D2F8098ED5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2665798-8355-4B45-B38F-D2F8098ED5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2665798-8355-4B45-B38F-D2F8098ED5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2665798-8355-4B45-B38F-D2F8098ED5E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
