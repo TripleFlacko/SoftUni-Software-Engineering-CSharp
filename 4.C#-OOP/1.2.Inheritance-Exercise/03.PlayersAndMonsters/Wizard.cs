@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zoo
+namespace PlayersAndMonsters
 {
-    public abstract class Reptile : Animal
+    public class Wizard : Hero
     {
-        public Reptile(string name) : base(name)
+        public Wizard(string username, int level) : base(username, level)
         {
         }
     }

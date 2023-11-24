@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    public class Animal
+    public abstract class Animal
     {
         public Animal(string name)
         {
