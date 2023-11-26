@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.RecursiveArraySum", "01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RecursiveFactorial", "02.RecursiveFactorial\02.RecursiveFactorial.csproj", "{EDEF5E52-C281-43CE-A522-0B7B3B557E11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumOfCoins", "03.SumOfCoins\03.SumOfCoins.csproj", "{A689DDA7-40D2-496B-8A6E-3598D47669D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SetCover", "04.SetCover\04.SetCover.csproj", "{36A2AEF8-8F73-4BB0-A14F-8E0396FE1C09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EDEF5E52-C281-43CE-A522-0B7B3B557E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEF5E52-C281-43CE-A522-0B7B3B557E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEF5E52-C281-43CE-A522-0B7B3B557E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A689DDA7-40D2-496B-8A6E-3598D47669D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A689DDA7-40D2-496B-8A6E-3598D47669D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A689DDA7-40D2-496B-8A6E-3598D47669D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A689DDA7-40D2-496B-8A6E-3598D47669D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A2AEF8-8F73-4BB0-A14F-8E0396FE1C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A2AEF8-8F73-4BB0-A14F-8E0396FE1C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A2AEF8-8F73-4BB0-A14F-8E0396FE1C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A2AEF8-8F73-4BB0-A14F-8E0396FE1C09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
