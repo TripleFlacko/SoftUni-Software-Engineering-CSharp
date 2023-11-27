@@ -4,29 +4,24 @@
     {
         static void Main(string[] args)
         {
-            var pizzaName = Console.ReadLine().Split(' ')[1];
-            var doughInfo = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
-
-            var flourType = doughInfo[1];
-            var bakingTechnique = doughInfo[2];
-            var doughGrams = int.Parse(doughInfo[3]);
+            var pizzaName = Console.ReadLine().Split()[1];
+            var doughInfo = Console.ReadLine().Split();
 
             try
             {
-                var dough = new Dough(flourType, bakingTechnique, doughGrams);
+                var dough = new Dough(doughInfo[1], doughInfo[2], int.Parse(doughInfo[3]));
+                var pizza = new Pizza(pizzaName, dough);
 
-                var toppings = new List<Topping>();
                 string command;
                 while ((command = Console.ReadLine()) != "END")
                 {
-                    var toppingInfo = command.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
-                    var toppingType = toppingInfo[1];
-                    var toppingGrams = int.Parse(toppingInfo[2]);
-                    var topping = new Topping(toppingType, toppingGrams);
-                    toppings.Add(topping);
+                    var toppingInfo = command.Split().ToArray();
+
+                    var topping = new Topping(toppingInfo[1], int.Parse(toppingInfo[2]));
+
+                    pizza.AddToppings(topping);
                 }
 
-                var pizza = new Pizza(pizzaName, dough, toppings);
                 Console.WriteLine(pizza);
             }
             catch (Exception ex)

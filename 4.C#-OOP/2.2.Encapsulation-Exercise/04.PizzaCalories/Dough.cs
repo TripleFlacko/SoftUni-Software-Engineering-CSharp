@@ -38,6 +38,7 @@ namespace _04.PizzaCalories
                 {
                     throw new ArgumentException("Dough weight should be in the range [1..200].");
                 }
+
                 grams = value;
             }
         }
@@ -58,14 +59,12 @@ namespace _04.PizzaCalories
             }
             private set
             {
-                if (flourTypeCaloriesModifier.ContainsKey(value))
-                {
-                    flourType = value;
-                }
-                else
+                if (!flourTypeCaloriesModifier.ContainsKey(value))
                 {
                     throw new ArgumentException("Invalid type of dough.");
                 }
+
+                flourType = value;
             }
         }
         public string BakingTechnique
@@ -76,14 +75,12 @@ namespace _04.PizzaCalories
             }
             private set
             {
-                if (bakingTechniqueCalories.ContainsKey(value))
-                {
-                    bakingTechnique = value;
-                }
-                else
+                if (!bakingTechniqueCalories.ContainsKey(value))
                 {
                     throw new ArgumentException("Invalid type of dough.");
                 }
+
+                bakingTechnique = value;
             }
         }
     }

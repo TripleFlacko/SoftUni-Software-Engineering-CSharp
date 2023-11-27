@@ -9,14 +9,12 @@ namespace _04.PizzaCalories
     public class Pizza
     {
         private string name;
-        private Dough dough;
-        private List<Topping> toppings;
+        private List<Topping> toppings = new List<Topping>();
 
-        public Pizza(string name, Dough dough, List<Topping> toppings)
+        public Pizza(string name, Dough dough)
         {
             Name = name;
             Dough = dough;
-            Toppings = toppings;
         }
         public string Name
         {
@@ -34,28 +32,22 @@ namespace _04.PizzaCalories
             }
         }
         public Dough Dough { get; set; }
-        public List<Topping> Toppings
+
+        public void AddToppings(Topping topping)
         {
-            get
+            if (toppings.Count < 10)
             {
-                return toppings;
+                toppings.Add(topping);
             }
-            private set
+            else
             {
-                if (value.Count < 0 || value.Count > 10)
-                {
-                    throw new ArgumentException("Number of toppings should be in range [0..10].");
-                }
-                else
-                {
-                    toppings = value;
-                }
+                throw new ArgumentException("Number of toppings should be in range [0..10].");
             }
         }
         public double TotalCalories()
         {
             double totalCalories = 0;
-            Toppings.ForEach(topping => totalCalories += topping.TotalCalories);
+            toppings.ForEach(topping => totalCalories += topping.TotalCalories);
             totalCalories += Dough.TotalCalories;
             return totalCalories;
         }

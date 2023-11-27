@@ -29,14 +29,12 @@ namespace _04.PizzaCalories
             }
             private set
             {
-                if (value < 0 || value > 50)
+                if (value < 1 || value > 50)
                 {
                     throw new ArgumentException($"{ToppingType} weight should be in the range [1..50].");
                 }
-                else
-                {
-                    grams = value;
-                }
+
+                grams = value;
             }
         }
         public string ToppingType
@@ -47,21 +45,19 @@ namespace _04.PizzaCalories
             }
             private set
             {
-                if (toppingTypeCalories.ContainsKey(value.ToLower()))
-                {
-                    toppingType = value.ToLower();
-                }
-                else
+                if (!toppingTypeCalories.ContainsKey(value.ToLower()))
                 {
                     throw new ArgumentException($"Cannot place {value} on top of your pizza.");
                 }
+
+                toppingType = value;
             }
         }
         public double TotalCalories
         {
             get
             {
-                return 2 * Grams * toppingTypeCalories[toppingType];
+                return 2 * Grams * toppingTypeCalories[toppingType.ToLower()];
             }
         }
 
