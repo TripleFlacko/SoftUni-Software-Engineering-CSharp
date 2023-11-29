@@ -1,4 +1,4 @@
-﻿namespace test
+﻿namespace _02.Cars
 {
     internal class Program
     {
