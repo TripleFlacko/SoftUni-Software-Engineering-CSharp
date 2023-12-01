@@ -1,9 +1,9 @@
-﻿namespace _04.BorderControl
+﻿namespace _05.BirthdayCelebrations
 {
     public interface IDentifiable
     {
-        public string Name { get; }
-        public string ID { get; }
-        public bool AccessDenied(string lastDigits);
+        string Name { get; }
+        string ID { get; }
+        bool AccessDenied(string lastDigits);
     }
 }

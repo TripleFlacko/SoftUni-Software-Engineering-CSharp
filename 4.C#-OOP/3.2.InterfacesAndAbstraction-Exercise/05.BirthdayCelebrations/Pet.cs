@@ -6,25 +6,24 @@ using System.Threading.Tasks;
 
 namespace _05.BirthdayCelebrations
 {
-    public class Robot : IDentifiable
+    public class Pet : IBirthable
     {
-        public Robot(string name, string iD)
+        public Pet(string name, string birthdate)
         {
             Name = name;
-            ID = iD;
+            Birthdate = birthdate;
         }
 
         public string Name { get; private set; }
 
-        public string ID { get; private set; }
+        public string Birthdate { get; private set; }
 
-        public bool AccessDenied(string lastDigits)
+        public bool SameYear(string year)
         {
-            if (ID.Substring(ID.Length - lastDigits.Length) == lastDigits)
+            if (Birthdate.Substring(Birthdate.Length - year.Length) == year)
             {
                 return true;
             }
-
             return false;
         }
     }
