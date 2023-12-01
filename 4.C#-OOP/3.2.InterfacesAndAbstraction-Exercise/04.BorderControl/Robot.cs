@@ -3,25 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace _04.BorderControl
 {
-    public class Person : IRobot, ICitizen
+    public class Robot : IDentifiable
     {
-        public Person(string name, string id)
+        public Robot(string name, string iD)
         {
             Name = name;
-            ID = id;
-        }
-        public Person(string name, int age, string id) : this(name, id)
-        {
-            Age = age;
+            ID = iD;
         }
 
         public string Name { get; private set; }
-
-        public int Age { get; private set; }
 
         public string ID { get; private set; }
 
