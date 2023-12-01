@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.BorderControl", "04.Bord
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BirthdayCelebrations", "05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{0DD38AFB-21A7-44A2-A361-60C30B7DB558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FoodShortage", "06.FoodShortage\06.FoodShortage.csproj", "{1774AAC6-E6EC-4E84-BD8E-87339EB201F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0DD38AFB-21A7-44A2-A361-60C30B7DB558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD38AFB-21A7-44A2-A361-60C30B7DB558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD38AFB-21A7-44A2-A361-60C30B7DB558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1774AAC6-E6EC-4E84-BD8E-87339EB201F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1774AAC6-E6EC-4E84-BD8E-87339EB201F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1774AAC6-E6EC-4E84-BD8E-87339EB201F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1774AAC6-E6EC-4E84-BD8E-87339EB201F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
