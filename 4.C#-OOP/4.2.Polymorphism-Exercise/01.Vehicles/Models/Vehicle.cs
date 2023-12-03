@@ -4,7 +4,7 @@ namespace _01.Vehicles.Models
 {
     public abstract class Vehicle : IVehicle
     {
-        private double consumptionIncreasement;
+        private readonly double consumptionIncreasement;
         protected Vehicle(double fuelQuantity, double fuelConsumption, double consumptionIncreasement)
         {
             FuelQuantity = fuelQuantity;

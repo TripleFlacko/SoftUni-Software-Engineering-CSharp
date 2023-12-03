@@ -1,11 +1,11 @@
-﻿using _01.Vehicles.Models;
-
-namespace VehiclesExtension.Models.Vehicles
+﻿namespace VehiclesExtension.Models.Vehicles
 {
     public class Car : Vehicle
     {
-        public Car(double fuelQuantity, double fuelConsumption, double consumptionIncreasement) : base(fuelQuantity, fuelConsumption, consumptionIncreasement)
+        private const double consumptionIncreasement = 0.9;
+        public Car(double fuelQuantity, double fuelConsumption, double tankCapacity) : base(fuelQuantity, fuelConsumption, tankCapacity, consumptionIncreasement)
         {
+
         }
     }
 }

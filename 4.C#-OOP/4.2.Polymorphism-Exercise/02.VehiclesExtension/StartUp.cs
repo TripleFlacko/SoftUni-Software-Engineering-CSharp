@@ -1,25 +1,22 @@
 ﻿using VehiclesExtension.Interfaces;
 using VehiclesExtension.Models.Vehicles;
 
-namespace _01.Vehicles
+namespace Vehicles
 {
     public class StartUp
     {
         static void Main()
         {
             var vehicles = new List<IVehicle>();
-
-            var input = Console.ReadLine().Split();
-            vehicles.Add(new Car(double.Parse(input[1]), double.Parse(input[2]), 0.9));
-
-            input = Console.ReadLine().Split();
-            vehicles.Add(new Truck(double.Parse(input[1]), double.Parse(input[2]), 1.6));
+            for (int i = 0; i < 3; i++)
+            {
+                vehicles.Add(CreateVehicle(Console.ReadLine().Split()));
+            }
 
             var n = int.Parse(Console.ReadLine());
-
             for (int i = 0; i < n; i++)
             {
-                input = Console.ReadLine().Split();
+                var input = Console.ReadLine().Split();
 
                 IVehicle vehicle = vehicles.FirstOrDefault(v => v.GetType().Name == input[1]);
                 try
@@ -28,14 +25,21 @@ namespace _01.Vehicles
                     {
                         Console.WriteLine(vehicle.Drive(double.Parse(input[2])));
                     }
-                    else
+                    else if (input[0] == "DriveEmpty")
+                    {
+                        Console.WriteLine(vehicle.DriveEmpty(double.Parse(input[2])));
+                    }
+                    else if (input[0] == "Refuel")
                     {
                         vehicle.Refuel(double.Parse(input[2]));
                     }
                 }
-                catch (Exception ex)
+                catch (ArgumentException ex)
                 {
                     Console.WriteLine(ex.Message);
+                }
+                catch (Exception)
+                {
                 }
             }
 
@@ -44,5 +48,12 @@ namespace _01.Vehicles
                 Console.WriteLine(vehicle);
             }
         }
+        public static IVehicle CreateVehicle(string[] vehicleInfo) => vehicleInfo[0] switch
+        {
+            "Car" => new Car(double.Parse(vehicleInfo[1]), double.Parse(vehicleInfo[2]), double.Parse(vehicleInfo[3])),
+            "Truck" => new Truck(double.Parse(vehicleInfo[1]), double.Parse(vehicleInfo[2]), double.Parse(vehicleInfo[3])),
+            "Bus" => new Bus(double.Parse(vehicleInfo[1]), double.Parse(vehicleInfo[2]), double.Parse(vehicleInfo[3])),
+            _ => default,
+        };
     }
 }
