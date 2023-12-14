@@ -15,13 +15,12 @@
 | <a href="https://softuni.bg/trainings/4094/programming-fundamentals-with-csharp-may-2023"> Programming Fundamentals with C# </a> | <a href="https://softuni.bg/certificates/details/179539/a1809e9b"> Link</a> |
 | <a href="https://softuni.bg/courses/csharp-advanced"> C# Advanced </a>                                             | <a href="https://softuni.bg/certificates/details/198045/83b93ea2"> Link</a> |
 | <a href="https://softuni.bg/courses/c-sharp-oop"> C# OOP </a>                                                      | Coming soon |
-| <a href="https://softuni.bg/opencourses/ms-sql"> MS SQL </a>   | Coming soon |
-| <a href="https://softuni.bg/opencourses/html-and-css"> HTML & CSS </a>   | Coming soon |
-| <a href="https://softuni.bg/courses/js-front-end"> JS Front-End </a>                         | Coming soon |
-| <a href="https://softuni.bg/opencourses/ms-sql"> MS SQL </a>                                     | Coming soon |
-| <a href="https://softuni.bg/courses/entity-framework-core"> Entity Framework Core </a>                                          | Coming soon |
-| <a href="https://softuni.bg/courses/csharp-web-basics"> ASP.NET Fundamentals </a>                                          | Coming soon |
-| <a href="https://softuni.bg/courses/asp-net-core"> ASP.NET Advanced </a>                                          | Coming soon |
+| <a href="https://softuni.bg/opencourses/html-and-css"> HTML & CSS </a>                                             | Coming soon |
+| <a href="https://softuni.bg/courses/js-front-end"> JS Front-End </a>                                               | Coming soon |
+| <a href="https://softuni.bg/opencourses/ms-sql"> MS SQL </a>                                                       | Coming soon |
+| <a href="https://softuni.bg/courses/entity-framework-core"> Entity Framework Core </a>                             | Coming soon |
+| <a href="https://softuni.bg/courses/csharp-web-basics"> ASP.NET Fundamentals </a>                                  | Coming soon |
+| <a href="https://softuni.bg/courses/asp-net-core"> ASP.NET Advanced </a>                                           | Coming soon |
 
 </td>
 </tr>
