@@ -1,0 +1,11 @@
+.joinBtn {
+font-weight: bold;
+    background-color: rgb(255, 217, 0);
+    border: 2px solid rgb(199, 73, 0);
+    border-radius: 0.7em;
+    padding: 0.5em 2em;
+}
+
+.joinBtn:hover {
+    background-color: red;
+}
