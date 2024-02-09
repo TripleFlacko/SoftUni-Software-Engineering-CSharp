@@ -1,0 +1,18 @@
+body {
+    font: 18px/1.5 Helvetica, sans-serif;
+    background: #EDEDED;
+}
+
+h2 {
+    background: #3B516B;
+    padding: 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+
+li {
+    margin-left: 20px;
+}

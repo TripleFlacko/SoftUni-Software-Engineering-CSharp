@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font: 400 24px/1.15 "Sentinel A", "Sentinel B", "Georgia", "Times New Roman", "Time", serif;
+    color: #747474;
+}
+
+span {
+    font: oblique 600 16px/1.46 "Graphik Semibold Web", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #5c5a5a;
+}
+
+p {
+    font: 400 16px/1.46 "Graphik Regular Web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #5c5a5a;
+}
