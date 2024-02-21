@@ -1,1 +1,19 @@
-/* TODO: style the html */
+article {
+    background-color: rgb(51, 102, 153);
+    padding: 36px;
+    margin: 54px;
+    border-radius: 16px;
+    color: white;
+    text-indent: 3em;
+}
+
+body {
+    font: 18px/1.5 'Helvetica', sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
