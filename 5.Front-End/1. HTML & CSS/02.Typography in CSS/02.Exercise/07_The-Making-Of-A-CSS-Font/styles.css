@@ -1,1 +1,5 @@
-/* TODO: style the html */
+@import url(typography.css);
+
+body {
+    background-color: darkred;
+}
