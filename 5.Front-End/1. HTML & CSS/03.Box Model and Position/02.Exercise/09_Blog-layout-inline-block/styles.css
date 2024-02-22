@@ -1,0 +1,24 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article {
+    max-width: 80%;
+    display: inline-block;
+}
+
+aside {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 45%;
+}
+
+hr {
+    visibility: hidden;
+}
