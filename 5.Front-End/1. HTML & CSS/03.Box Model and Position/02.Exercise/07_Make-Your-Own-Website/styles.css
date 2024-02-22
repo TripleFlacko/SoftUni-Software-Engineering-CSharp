@@ -1,1 +1,18 @@
-/* TODO: style the html */
+div {
+    width: 280px;
+    display: inline-block;
+    background-color: #0A2C48;
+    padding: 32px 32px 32px 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 4px;
+}
+
+div:hover {
+    background-color: #2a4c68;
+}
+
+p {
+    color: #c9c9c9;
+    font-size: 18px;
+}
