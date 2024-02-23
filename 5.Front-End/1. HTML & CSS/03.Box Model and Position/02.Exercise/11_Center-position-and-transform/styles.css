@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    width: min-content;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.3);
+    padding-bottom: 35px;
+}
+
+img {
+    display: block;
+}
+
+.button {
+    background-color: rgb(0, 153, 0);
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(0, 113, 0);
+    transform: scale(1.1);
+}
+
+h3 {
+    font: 1.5em/1.2 'Georgia', serif;
+    margin: 15px 0px 0px 0px;
+}
+
+.description {
+    margin: 10px 0px;
+}
+
+.text {
+    padding: 10px 20px;
+}
