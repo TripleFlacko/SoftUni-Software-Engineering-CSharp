@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WormsAndHoles", "01.WormsAndHoles\01.WormsAndHoles.csproj", "{136EF680-B6D7-48F9-9A06-13FC3379AC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TheGambler", "02.TheGambler\02.TheGambler.csproj", "{214D4E40-9A1D-4EC4-846E-744C670366CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{136EF680-B6D7-48F9-9A06-13FC3379AC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136EF680-B6D7-48F9-9A06-13FC3379AC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136EF680-B6D7-48F9-9A06-13FC3379AC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136EF680-B6D7-48F9-9A06-13FC3379AC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214D4E40-9A1D-4EC4-846E-744C670366CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214D4E40-9A1D-4EC4-846E-744C670366CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214D4E40-9A1D-4EC4-846E-744C670366CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214D4E40-9A1D-4EC4-846E-744C670366CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BCCEDFD-0E84-4428-923F-8AF6700DE049}
+	EndGlobalSection
+EndGlobal
