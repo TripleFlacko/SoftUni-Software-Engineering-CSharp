@@ -1,7 +1,7 @@
 # <h1 align="center"> C# Full-Stack Developer | SoftUni Bulgaria</h1>
 <h3 align="center"> Here you can find solutions to all of the exercises from C# Full-Stack Developer course from SoftUni. Below you'll see my certificates and links to the courses I took.<h3>
 
-<p align="center"><a href="https://softuni.bg/trainings/courses" rel="Courses"><img src="https://camo.githubusercontent.com/68ee2fe30ad94197718f8d43c3d768ec5ac1fccc1ea06c466a12030a3125c4a0/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3937393130313834383336313337373931342f313037373138383532323332303037323730342f536f6674556e692d4c6f676f2d466c61742e706e67" alt="Software University Logo"></a></p>
+<p align="center"><a href="https://softuni.bg/trainings/courses" rel="Courses"><img src="https://www.openfest.org/2023/wp-content/uploads/sites/27/2023/10/SoftUni-Logo-1.png" alt="Software University Logo"></a></p>
 
 <h2 align="center"> Certificates </h2>
 
