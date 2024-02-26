@@ -1,1 +1,21 @@
-/* TODO: style the html */
+section {
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+span {
+    padding-left: 3px;
+    color: gray;
+}
+
+div {
+    position: relative;
+    bottom: 50px;
+    left: 8px;
+}
