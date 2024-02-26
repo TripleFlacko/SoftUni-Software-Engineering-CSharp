@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 100px;
+    font-family: Georgia, serif;
+}
+
+header p, nav li, nav {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin: auto;
+}
+
+nav li {
+    margin: 0px 10px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    max-width: 80%;
+}
+
+.image, .image2 {
+    padding: 10px;
+    border: 3px solid black;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+    margin: 0px 0px 10px 20px;
+    float: right;
+}
+
+.image2 {
+    margin: 0px 20px 10px 0px;
+    float: left;
+}
+
+.anchor {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+nav ul {
+    list-style: none;
+}
+
+.links {
+    color: rgb(0, 150, 0);
+}
+
+h1, blockquote, h2 {
+    font-family: Georgia, serif;
+}
+
+.quote {
+    float: right;
+    width: 40%;
+    color: rgb(117, 117, 117);
+    border-left: 3px solid rgba(190, 190, 190, 0.601);
+    margin: 20px;
+    font-style: italic;
+}
+
+blockquote {
+    margin-right: 0px;
+}
+
+.quote p {
+    text-align: right;
+}
+
+aside {
+    margin-left: 40px;
+}
+
+aside p {
+    font-weight: bold;
+}
+
+header p {
+    margin-bottom: 0px;
+}
+
+.site-title {
+    margin-bottom: 0px;
+    font: bold 32px/1 Arial, Helvetica, sans-serif;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside p {
+    font: 500 1.2em/1 Helvetica, sans-serif;
+}
+
+hr {
+    border: 1px solid black; /* Adjust the thickness as needed */
+}
