@@ -1,6 +1,7 @@
 .flex-container {
   background-color: DodgerBlue;
   width: 300px;
+  display: flex;
 }
 
 .flex-container > div {
@@ -9,3 +10,4 @@
   padding: 20px;
   font-size: 30px;
 }
+
