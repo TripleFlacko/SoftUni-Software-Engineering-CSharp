@@ -3,6 +3,7 @@ body {
     padding: 5rem;
     display: flex;
     flex-wrap: wrap;
+    text-transform: uppercase;
 }
 
 header {
