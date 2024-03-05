@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+header span {
+    font: bold 36px/1 'Helvetica', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+main p {
+    margin: 20px 0;
+}
