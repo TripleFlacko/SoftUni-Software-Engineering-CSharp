@@ -1,0 +1,11 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 70vw;
+    gap: 4em;
+}
+
+article {
+    width: 30%;
+}
