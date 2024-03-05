@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    min-height: 90vh;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+span {
+    border: 1px solid black;
+    padding-top: 2em;
+}
+
+.headings {
+    flex: 1 0 100%;
+}
+
+.entry {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.notes {
+    flex: 1 1 20%;
+}
+
+.notes > span {
+    min-height: 50%;
+    min-width: 100%;
+}
