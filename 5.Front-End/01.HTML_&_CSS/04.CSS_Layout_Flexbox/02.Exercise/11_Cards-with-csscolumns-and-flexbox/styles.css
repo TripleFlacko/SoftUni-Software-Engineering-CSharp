@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5% 10%;
+    background-color: #eee;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+    column-gap: 3%;
+    row-gap: 1em;
+}
+
+.card section {
+    padding: 1em;
+    flex-grow: 1;
+}
+
+.card footer {
+    padding: 1em;
+    border-top: 1px solid gray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 30%;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.masonry {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 2000px;
+    column-count: 3;
+    flex-grow: 0;
+}
+
+.masonry section {
+    flex-grow: 0;
+}
+
+/* Media queries for responsive layout */
+@media (max-width: 1550px) {
+    .masonry {
+        max-height: 1800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .masonry {
+        max-height: 1800px;
+    }
+}
+
+@media (max-width: 600px) {
+    .masonry {
+        max-height: 2200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .masonry {
+        max-height: 2400px;
+    }
+}
+
+@media (max-width: 350px) {
+    .masonry {
+        max-height: 2500px;
+    }
+}
