@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    background-color: #eee;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    width: 80px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 0.8em 0.1em rgba(0, 0, 0, 0.5);
+    margin: 0.5em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    transition: width 0.3s ease-in-out;
+}
+
+.image:hover {
+    width: 400px;
+}
