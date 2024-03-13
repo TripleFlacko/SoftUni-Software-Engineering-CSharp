@@ -1,0 +1,63 @@
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+}
+
+header, aside, .main-content, footer {
+    background-color: lightblue;
+    margin: 0.5em 0.4em;
+    border-radius: 0.5em;
+} 
+
+.main-content ul {
+    margin: 1em 2em;
+}
+
+aside {
+    flex: 1 0 20%;
+    padding: 0.5em;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+aside li {
+    margin: 0.5em;
+}
+
+.main-content {
+    flex: 1 1 80%;
+    padding: 2em 1em;
+}
+
+footer {
+    padding: 0.5em 1em;
+}
