@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.card {
+    background-color: #fff;
+    margin: 3em;
+    box-shadow: 0 0 1em 0.3em rgba(0, 0, 0, 0.281);
+    border-radius: 0.5em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    font: bold 1em/1.2 'Georgia', serif;
+    margin: 0.5em 0;
+}
+
+.card p {
+    font-family: 'Helvetica', sans-serif;
+    width: 75%;
+}
+
+.picture {
+    height: 17em;
+    width: 30em;
+    background-image: url('photo-1538230942844-e89414a0692d.avif');
+    background-size: cover;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+.button a {
+    margin: 1em;
+    padding: 0.4em 0.9em;
+    background-color: rgb(0, 160, 0);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0.3em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+section p {
+    max-width: 27em;
+}
+
+.button a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.button a:hover {
+    transform: scale(1.1);
+}
