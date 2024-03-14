@@ -1,0 +1,24 @@
+@media (max-width: 1000px) {
+    .image {
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .image {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .quote {
+        flex-direction: column;
+    }
+    .image {
+        max-width: 50%;
+    }
+}
