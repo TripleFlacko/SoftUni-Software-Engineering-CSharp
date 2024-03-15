@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    font-family: sans-serif;
+}
+
+h2 {
+    font: bold 1.7em/1 'Times New Roman', sans-serif;
+}
+
+.tell-us-button {
+    font-weight: bold;
+}

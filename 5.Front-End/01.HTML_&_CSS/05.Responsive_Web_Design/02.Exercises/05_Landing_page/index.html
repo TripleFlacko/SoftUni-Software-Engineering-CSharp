@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebPage</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/1d448b18ad.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
             <span class="top-part-logo">Purple Spider</span>
             <span class="bottom-part-logo">THE LAST WEB AGENNCY YOU WILL EVER NEED</span>
         </div>
-        <nav>
+        <nav class="menu" id="menu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About us</a></li>
@@ -22,25 +23,43 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contacts</a></li>
             </ul>
+            <a class="close-menu" href="#"><i class="fa-solid fa-xmark"></i> Close</a>
         </nav>
+        <a class="open-menu" href="#menu"><i class="fa-solid fa-bars"></i> Menu</a>
     </header>
     <main>
         <div class="container">
             <div class="need-a-website">
-                <h3>Need a website?</h3>
-                <p>We do amazingly futuristic stuff using the same tools everyone has. We are so unique and awesome we
-                    didn't spend money on marketing gurus or copy writers!</p>
-                <a href="#">Tell us about your project</a>
+                <div class="info">
+                    <h2>Need a website?</h2>
+                    <p>We do amazingly futuristic stuff using the same tools everyone has. We are so unique and awesome
+                        we
+                        didn't spend money on marketing gurus or copy writers!</p>
+                    <a class="tell-us-button" href="#">Tell us about your project</a>
+                </div>
+                <div class="planet">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </div>
             </div>
             <div class="our-team">
-                <h3>Our Team</h3>
+                <h2>Our Team</h2>
                 <div class="horizontal-line">
                     <hr>
                 </div>
                 <div class="all-members">
                     <div class="member">
+                        <div class="pic-container">
+                            <figure>
+                                <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
+                            </figure>
+                        </div>
+                        <span class="name">Genghis Khan</span>
+                        <span class="position">CTO</span>
+                        <p class="description">Smart dude, geeky, knows his stuff! Nothing else.</p>
+                    </div>
+                    <div class="member">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <span class="name">Genghis Khan</span>
                         <span class="position">CTO</span>
@@ -48,7 +67,7 @@
                     </div>
                     <div class="member">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <span class="name">Genghis Khan</span>
                         <span class="position">CTO</span>
@@ -56,7 +75,7 @@
                     </div>
                     <div class="member">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <span class="name">Genghis Khan</span>
                         <span class="position">CTO</span>
@@ -64,7 +83,7 @@
                     </div>
                     <div class="member">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <span class="name">Genghis Khan</span>
                         <span class="position">CTO</span>
@@ -72,15 +91,7 @@
                     </div>
                     <div class="member">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
-                        </figure>
-                        <span class="name">Genghis Khan</span>
-                        <span class="position">CTO</span>
-                        <p class="description">Smart dude, geeky, knows his stuff! Nothing else.</p>
-                    </div>
-                    <div class="member">
-                        <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <span class="name">Genghis Khan</span>
                         <span class="position">CTO</span>
@@ -89,7 +100,7 @@
                 </div>
             </div>
             <div class="newsletter">
-                <span class="newsletter">Sign-up to our newsletter</span>
+                <h2>Sign-up to our newsletter</h2>
                 <div class="horizontal-line">
                     <hr>
                 </div>
@@ -97,13 +108,14 @@
                 <input type="submit" value="Абонирай се">
             </div>
             <div class="testimonials">
+                <h2>Testimonials</h2>
                 <div class="horizontal-line">
                     <hr>
                 </div>
                 <div class="clients">
                     <div class="client">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <p class="comment">The most amazingly professional and absolutely great people I have had the
                             pleasure to work with on the face of the earth.</p>
@@ -112,7 +124,7 @@
                     </div>
                     <div class="client">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <p class="comment">The most amazingly professional and absolutely great people I have had the
                             pleasure to work with on the face of the earth.</p>
@@ -121,7 +133,7 @@
                     </div>
                     <div class="client">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <p class="comment">The most amazingly professional and absolutely great people I have had the
                             pleasure to work with on the face of the earth.</p>
@@ -130,7 +142,7 @@
                     </div>
                     <div class="client">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <p class="comment">The most amazingly professional and absolutely great people I have had the
                             pleasure to work with on the face of the earth.</p>
@@ -139,7 +151,7 @@
                     </div>
                     <div class="client">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <p class="comment">The most amazingly professional and absolutely great people I have had the
                             pleasure to work with on the face of the earth.</p>
@@ -148,7 +160,7 @@
                     </div>
                     <div class="client">
                         <figure>
-                            <img src="images/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                            <img src="images/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg" alt="">
                         </figure>
                         <p class="comment">The most amazingly professional and absolutely great people I have had the
                             pleasure to work with on the face of the earth.</p>
@@ -160,7 +172,33 @@
         </div>
     </main>
     <footer>
-        
+        <div class="logo-info">
+            <span>Purple Spider</span>
+            <p>We are the best web gurus you will ever have the pleasure to encounter. We are amazing!</p>
+        </div>
+        <div class="sitemap">
+            <span>Sitemap</span>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contacts">
+            <span>Contacts</span>
+            <span><i class="fa-solid fa-phone-volume"></i> 0700 12 3454</span>
+            <span><i class="fa-solid fa-envelope"></i> office@purplespider.bg</span>
+            <span><i class="fa-solid fa-clock"></i> Monday-Fri</span>
+            <span><i class="fa-solid fa-map-location-dot"></i> Sofia,&nbsp;28 Some Place Str.&nbsp;fl.1</span>
+        </div>
     </footer>
 </body>
 

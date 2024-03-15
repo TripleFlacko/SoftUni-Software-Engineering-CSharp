@@ -1,0 +1,9 @@
+.tell-us-button {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 0.4em 1em;
+    margin-top: 1em;
+    font-size: 0.8em;
+    border-radius: 0.25em;
+    color: black;
+}
