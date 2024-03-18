@@ -11,3 +11,7 @@ h2 {
 .tell-us-button {
     font-weight: bold;
 }
+
+.member-info .description {
+    font-style: italic;
+}

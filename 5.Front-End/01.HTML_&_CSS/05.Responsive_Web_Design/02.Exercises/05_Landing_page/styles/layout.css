@@ -97,7 +97,8 @@ header a, header nav ul li {
 figure {
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 1em 0.05em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5em 0.01em rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
 }
 
 .overlay {
@@ -107,6 +108,57 @@ figure {
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.3) inset;
     z-index: 1;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.member-info .name-position {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.4em 0;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(130, 0, 156);
+    padding: 2em 0;
+}
+
+.newsletter .newsletter-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5em;
+    color: white;
+}
+
+.form-container {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: row;
+}
+
+.newsletter .newsletter-heading hr {
+    border: 2px solid black;
+}
+
+.form-container button {
+    font-size: 10px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+}
+
+.form-container input[type=text], .form-container button {
+    border: 2px solid black;
 }
