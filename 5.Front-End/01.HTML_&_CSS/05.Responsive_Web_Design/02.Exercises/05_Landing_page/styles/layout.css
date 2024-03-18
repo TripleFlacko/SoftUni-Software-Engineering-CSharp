@@ -95,13 +95,18 @@ header a, header nav ul li {
 }
 
 figure {
+    position: relative;
+    overflow: hidden;
     box-shadow: 0 0 1em 0.05em rgba(0, 0, 0, 0.3);
 }
 
-.pic-container {
-    width: 100px;
-    height: 100px;
+.overlay {
+    position: absolute;
     border-radius: 50%;
-    box-shadow: inset 0 0 1em 1em black;
-
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.2) inset;
+    z-index: 1;
 }
