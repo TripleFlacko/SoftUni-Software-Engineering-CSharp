@@ -15,3 +15,24 @@ h2 {
 .member-info .description {
     font-style: italic;
 }
+
+.name-container .name {
+    font-weight: bold;
+}
+
+footer .bold {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.sitemap a {
+    color: black;
+}
+
+.client p {
+    font-style: italic;
+}
+
+.name {
+    font-weight: bold;
+}

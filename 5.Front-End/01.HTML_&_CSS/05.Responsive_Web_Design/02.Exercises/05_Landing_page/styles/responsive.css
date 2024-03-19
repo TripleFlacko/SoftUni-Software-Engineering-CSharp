@@ -4,6 +4,7 @@
 
     header {
         align-items: center;
+        min-width: 100%;
     }
 
     header nav ul {
@@ -48,7 +49,6 @@
 
     .menu:target .close-menu {
         display: block;
-        /* Display the close button when menu is targeted */
     }
 
     .need-a-website,
@@ -57,6 +57,7 @@
         max-width: 90%;
         margin: 0 auto;
     }
+
 
     .member {
         flex: 0 0 40%;
@@ -68,6 +69,13 @@
         overflow: hidden; 
     }
 
+    .client {
+        flex: 0 0 40%;
+    }
+
+    .all-members, .clients {
+        gap: 2em;
+    }
 }
 
 /* Tablets > 768px */
@@ -76,6 +84,7 @@
 
     header {
         align-items: center;
+        min-width: 90%;
     }
 
     header nav ul {
@@ -120,20 +129,106 @@
 
     .menu:target .close-menu {
         display: block;
-        /* Display the close button when menu is targeted */
+    }
+
+    .member {
+        flex: 0 0 40%;
     }
 
     .need-a-website,
     .our-team,
     .testimonials {
-        max-width: 80%;
+        max-width: 90%;
         margin: 0 auto;
+    }
+
+    figure {
+        width: 120px;
+        height: 120px;
+        overflow: hidden; 
+    }
+
+    .client {
+        flex: 0 0 40%;
+    }
+
+    .all-members, .clients {
+        gap: 2em;
     }
 }
 
-/* Desktops > 992px */
+/* Laptops > 1024px */
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    header nav {
+        display: flex;
+        flex: 1 1 45%;
+        justify-content: end;
+    }
+
+    header nav ul {
+        display: flex;
+        flex: 1 0 70%;
+        justify-content: flex-end;
+        gap: 4em;
+    }
+
+    header {
+        min-width: 95%;
+    }
+
+    .need-a-website,
+    .our-team,
+    .testimonials {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    figure {
+        width: 120px;
+        height: 120px;
+        overflow: hidden; 
+    }
+
+    .member {
+        flex: 0 0 27%;
+    }
+
+    .close-menu,
+    .open-menu {
+        display: none;
+    }
+
+    .client {
+        flex: 0 0 27%;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer .logo-info, footer .contacts {
+        flex: 0 1 25%;
+    }
+
+    footer .sitemap {
+        flex: 0 1 35%;
+    }
+
+    .all-members, .clients {
+        gap: 3em;
+    }
+}
+
+/* Desktops > 1200px */
+
+@media (min-width: 1200px) {
+
+    header {
+        width: 80%;
+    }
 
     header nav {
         display: flex;
@@ -143,14 +238,51 @@
 
     header nav ul {
         display: flex;
-        flex: 0 0 50%;
-        justify-content: space-between;
-
+        flex: 1 0 70%;
+        justify-content: flex-end;
+        gap: 5em;
     }
 
+    .need-a-website,
+    .our-team,
+    .testimonials {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    figure {
+        width: 120px;
+        height: 120px;
+        overflow: hidden; 
+    }
+
+    .member {
+        flex: 0 0 27%;
+    }
 
     .close-menu,
     .open-menu {
         display: none;
+    }
+
+    .client {
+        flex: 0 0 30%;
+    }
+    footer {
+        max-width: 80%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer .logo-info {
+        flex: 0 1 30%;
+    }
+
+    footer .sitemap {
+        flex: 0 1 40%;
+    }
+
+    .all-members, .clients {
+        gap: 3em;
     }
 }

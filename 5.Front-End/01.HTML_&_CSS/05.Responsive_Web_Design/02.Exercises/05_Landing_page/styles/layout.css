@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -20,6 +21,12 @@ nav {
     flex-direction: column;
 }
 
+.newsletter .newsletter-heading, .newsletter, .member, .member-info, .our-team, .testimonials, .testimonials-header, .client, .name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .top-part-logo {
     color: rgb(155, 0, 190);
     font-size: 2.1em;
@@ -34,7 +41,8 @@ nav {
 
 .need-a-website {
     display: flex;
-    align-items: center;
+    justify-content:center;
+    gap: 2em;
 }
 
 .planet {
@@ -54,9 +62,6 @@ header a, header nav ul li {
 }
 
 .our-team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0 auto;
 }
 
@@ -72,7 +77,6 @@ header a, header nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1em;
     margin-top: 2em;
 }
 
@@ -82,16 +86,13 @@ header a, header nav ul li {
 }
 
 .member {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 3em;
 }
 
 figure {
@@ -99,6 +100,10 @@ figure {
     overflow: hidden;
     box-shadow: 0 0 0.5em 0.01em rgba(0, 0, 0, 0.3);
     border-radius: 50%;
+}
+
+.form-container input[type=text] {
+    width: 300px;
 }
 
 .overlay {
@@ -113,9 +118,6 @@ figure {
 }
 
 .member-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
 }
 
@@ -123,22 +125,16 @@ figure {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 1.4em 0;
+    margin: 1em 0;
 }
 
 .newsletter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: rgb(130, 0, 156);
-    padding: 2em 0;
+    padding: 1.7em 0;
 }
 
 .newsletter .newsletter-heading {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 1.5em;
     color: white;
 }
@@ -161,4 +157,56 @@ figure {
 
 .form-container input[type=text], .form-container button {
     border: 2px solid black;
+}
+
+.testimonials {
+    gap: 2em;
+}
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.client {
+    flex: 0 0 40%;
+    text-align: center;
+    gap: 1em;
+}
+
+.shadow-container {
+    box-shadow: 0 0 1em 0.05em rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+footer .logo-info, footer .sitemap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.sitemap {
+    display: flex;
+}
+
+.sitemap ul {
+    flex: 0 1 50%;
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em
 }
