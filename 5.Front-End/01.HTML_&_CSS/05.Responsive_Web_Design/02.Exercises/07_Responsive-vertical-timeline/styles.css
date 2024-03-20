@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.timeline {
+    margin: 2em;
+    border: 3px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 0 1em;
+}
+
+.heading {
+    border: 2px solid darkgray;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 14px;
+    display: inline;
+    width: 250px;
+    border-radius: 0.5em;
+}
+
+.events {
+    padding-left: 1em;
+}
+
+article {
+    padding: 1.5em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+article h3 {
+    font-style: italic;
+}
+
+article ul {
+    padding-left: 2em;
+    list-style: inside square;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+body > div > div > article:nth-child(2) > section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+@media (max-width: 767px) {
+
+    article {
+        border-left: 5px solid darkgray ;
+    }
+    .events .odd article h3::before {
+        display: inline-block;
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: green;
+        border: 3px solid darkgray;
+    }
+
+    .events .even article h3::before {
+        display: inline-block;
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: orange;
+        border: 3px solid darkgray;
+    }
+
+    h3 {
+        position: relative;
+    }
+
+    .events article h3::before {
+        left: -40px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .odd article {
+        border-left: 5px solid darkgray ;
+    }
+
+    .even article {
+        border-right: 5px solid darkgray ;
+    }
+
+    .odd, .even {
+        display: flex;
+    }
+
+    .odd {
+        justify-content: flex-end;
+    }
+
+    article {
+        flex: 0 0 50.38%;
+    }
+
+    .events .odd article h3::before {
+        display: inline-block;
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: green;
+        border: 3px solid darkgray;
+    }
+
+    .events .even article h3::before {
+        display: inline-block;
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: orange;
+        border: 3px solid darkgray;
+    }
+
+    h3 {
+        position: relative;
+    }
+
+    
+}
