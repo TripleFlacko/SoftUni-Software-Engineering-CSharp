@@ -1,6 +1,9 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
@@ -9,45 +12,106 @@
 }
 
 body {
-/* TODO
-CSS Grid. Display grid. 
-Define the grid areas. 
-Create two unequal columns that sits next to each other 
-*/
+  display: block;
 }
 
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-/* TODO Reference the grid area */
-
-body {
-/* TODO style the body*/
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1abc9c;
+  padding: 60px;
+  align-items: center;
+  color: white;
 }
 
-header { 
-/* TODO style the header */
+header {
+  text-align: center;
 }
 
 nav {
-/* TODO style the navigation bar*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+
 }
 
 nav a {
-/* TODO style the navigation bar links*/
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
 aside {
-/* TODO style the sidebar*/
+  display: inline-block;
+  padding: 2em 1em;
+  vertical-align: top;
+  background-color: #d4d4d4;
+  height: auto;
 }
 
 main {
-/* TODO style the main*/
+  display: inline-block;
+  padding: 2em 1em;
+  vertical-align: top;
 }
 
-footer{
-/* TODO style the footer*/
+footer {
+  background-color: rgb(167, 167, 167);
+  text-align: center;
+  padding: 2em;
+}
+
+@media (min-width: 700px) {
+
+  nav {
+    flex-direction: row;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  aside {
+    flex: 0 0 30%;
+  }
+
+  main {
+    flex: 1 0 65%;
+  }
+}
+
+body {
+  /* TODO style the body*/
+}
+
+header {
+  /* TODO style the header */
+}
+
+nav {
+  /* TODO style the navigation bar*/
+}
+
+nav a {
+  /* TODO style the navigation bar links*/
+}
+
+aside {
+  /* TODO style the sidebar*/
+}
+
+main {
+  /* TODO style the main*/
+}
+
+footer {
+  /* TODO style the footer*/
 }
 
 /* TODO Responsive layout - when the screen is less than 700px wide, 
@@ -55,4 +119,3 @@ make the two columns stack on top of each other instead of next to each other */
 
 /* TODO Responsive layout - If the screen is smaller than 700px, 
 display the navigation bar links as block and center the text */
-
