@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 840px;
+    display: flex;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #1881B6;
+    gap: 2em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+article .heading1 {
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+article h2 {
+    margin-top: 0.5em;
+    font-size: 29px;
+    color: white;
+    font-weight: 100;
+}
+
+article .description {
+    text-indent: 3em;
+    line-height: 1.8;
+}
+
+.picture {
+    display: block;
+    max-width: 290px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.buttons a {
+    text-decoration:none;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    padding: 0.5em 1em;
+    font-size: 12px;
+}
+
+.more {
+    color: black;
+}
+
+.sales {
+    background-color: #B6416D;
+    color: white;
+}

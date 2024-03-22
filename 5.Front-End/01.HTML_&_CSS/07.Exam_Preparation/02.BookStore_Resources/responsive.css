@@ -1,0 +1,142 @@
+.home-navbar1 {
+    display: none;
+}
+
+.max-width-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home-header {
+    padding-top: 0;
+}
+
+.home-container {
+    padding-top: 50px;
+}
+
+.section-heading-section-heading > h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.section-heading-section-heading > span {
+    font-size: 12px;
+}
+
+.home-cards-container {
+    grid-gap: 10px;
+}
+
+.category-card-image {
+    width: 180px;
+    aspect-ratio: 1/1;
+    height: auto;
+}
+
+.category-card-text {
+    font-size: 12px;
+}
+
+.home-full-width-banner {
+    flex-direction: column;
+}
+
+.home-left4 {
+    padding: 1.7em;
+}
+
+.home-content {
+    flex-shrink: 0;
+    margin-bottom: 15px;
+}
+
+.home-text29 {
+    font-size: 22px;
+}
+
+.home-text30 {
+    font-size: 12px;
+    line-height: 1.5;
+    width: auto;
+}
+
+.home-text31 {
+    font-size: 12px;
+}
+
+.button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home-full-width-banner.section-container > img {
+    display: block;
+    width: 100%;
+}
+
+.home-container07 {
+    margin-top: 70px;
+}
+
+.home-container07 span {
+    font-size: 12px;
+}
+
+.blog-post-card-text {
+    font-size: 15px;
+}
+
+.blog-post-card-text1 {
+    font-size: 11px;
+}
+
+.blog-post-card-container {
+    padding-top: 18px;
+    padding-right: 0;
+}
+
+.home-container08 a {
+    font-size: 12px;
+}
+
+.home-footer1 {
+    flex-direction: column;
+}
+
+.home-container09 {
+    order: 1000;
+}
+
+.home-links-container {
+    flex-direction: column;
+}
+
+.home-footer1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home-container10 a, .home-container12 a, .home-container09 span {
+    font-size: 11px;
+}
+
+.home-container10 span, .home-container12 span {
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.home-links-container {
+    grid-gap: 30px;
+}
+
+.section-heading-section-heading {
+    margin-bottom: 30px;
+}
+
+.home-main {
+    padding-bottom: 30px;
+}
